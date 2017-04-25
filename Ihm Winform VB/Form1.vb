@@ -2,8 +2,9 @@
 
 Public Class Form1
     Private Sub btnOK_Click(sender As Object, e As EventArgs) Handles btnOK.Click
-        Dim hw As New HelloWorld(tbPrenom.Text)
+        Dim plat As New Plateau()
 
-        lblMessage.Text = hw.Bonjour()
+        TextBox1.Text = plat.HorsPlateau(CInt(tbPrenom.Text), CInt(TextBox2.Text))
     End Sub
+
 End Class
