@@ -6,14 +6,11 @@ using System.Threading.Tasks;
 
 namespace Bibliotheque
 {
-    public class Yokai
+    public class KodamaSamuraï : Kodama
     {
-        protected int _x;
-        protected int _y;
-
-        public Yokai()
+        KodamaSamuraï()
         {
-            //Constructeur
+
         }
     }
 }
