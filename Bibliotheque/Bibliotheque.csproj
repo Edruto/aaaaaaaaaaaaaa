@@ -41,10 +41,13 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="HelloWorld.cs" />
+    <Compile Include="Kitsune.cs" />
     <Compile Include="Kodama.cs" />
     <Compile Include="KodamaSamuraï.cs" />
+    <Compile Include="Koropokkuru.cs" />
     <Compile Include="Plateau.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Tanuki.cs" />
     <Compile Include="Yokai.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
