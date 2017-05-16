@@ -8,6 +8,12 @@ namespace Bibliotheque
 {
     class Joueur
     {
+        private Yokai[] reserve;
+        
+        public Joueur()
+        {
+            reserve = new Yokai[3];
 
+        }
     }
 }
