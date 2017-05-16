@@ -8,7 +8,7 @@ namespace Bibliotheque
 {
     public class KodamaSamuraï : Kodama
     {
-        KodamaSamuraï()
+        public KodamaSamuraï(int x, int y, bool player):base(x,y,player)
         {
 
         }

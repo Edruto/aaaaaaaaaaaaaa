@@ -10,10 +10,13 @@ namespace Bibliotheque
     {
         protected int _x;
         protected int _y;
+        protected bool _player;
 
-        public Yokai()
+        public Yokai(int x, int y, bool player)
         {
-            //Constructeur
+            _x = x;
+            _y = y;
+            _player = player;
         }
     }
 }

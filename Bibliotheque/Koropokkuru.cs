@@ -8,7 +8,7 @@ namespace Bibliotheque
 {
     class Koropokkuru : Yokai
     {
-        public Koropokkuru()
+        public Koropokkuru(int x, int y, bool player):base(x,y,player)
         {
 
         }

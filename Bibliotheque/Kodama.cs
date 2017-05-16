@@ -8,7 +8,7 @@ namespace Bibliotheque
 {
     public class Kodama : Yokai
     {
-        public Kodama()
+        public Kodama(int x, int y, bool player):base(x,y,player)
         {
 
         }

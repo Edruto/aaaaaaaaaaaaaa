@@ -8,7 +8,7 @@ namespace Bibliotheque
 {
     class Kitsune : Yokai
     {
-        public Kitsune()
+        public Kitsune(int x, int y, bool player):base(x,y,player)
         {
              
         }
