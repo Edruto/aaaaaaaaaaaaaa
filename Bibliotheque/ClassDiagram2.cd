@@ -1,17 +1,59 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <ClassDiagram MajorVersion="1" MinorVersion="1" MembersFormat="FullSignature">
   <Class Name="Bibliotheque.Kodama">
-    <Position X="0.5" Y="0.5" Width="1.5" />
+    <Position X="3.75" Y="2.5" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>Kodama.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="Bibliotheque.Yokai">
-    <Position X="5.25" Y="1.5" Width="1.5" />
+    <Position X="5.5" Y="4.25" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAIAAQAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>Yokai.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Bibliotheque.Kitsune" Collapsed="true">
+    <Position X="9" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Kitsune.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Bibliotheque.KodamaSamuraï" Collapsed="true">
+    <Position X="3.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>KodamaSamuraï.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Bibliotheque.Koropokkuru" Collapsed="true">
+    <Position X="5.5" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Koropokkuru.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Bibliotheque.Plateau">
+    <Position X="11" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAIBAQBAAAAAAAAAAAAAAAAAAAIAAAEAAAAAAA=</HashCode>
+      <FileName>Plateau.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Bibliotheque.Tanuki" Collapsed="true">
+    <Position X="7.25" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Tanuki.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Bibliotheque.HelloWorld">
+    <Position X="1.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAABAAI=</HashCode>
+      <FileName>HelloWorld.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Font Name="Segoe UI" Size="9" />
