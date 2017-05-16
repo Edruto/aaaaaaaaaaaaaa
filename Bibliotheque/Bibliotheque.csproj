@@ -41,6 +41,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="HelloWorld.cs" />
+    <Compile Include="Joueur.cs" />
     <Compile Include="Kitsune.cs" />
     <Compile Include="Kodama.cs" />
     <Compile Include="KodamaSamuraï.cs" />
