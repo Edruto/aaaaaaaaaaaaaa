@@ -12,7 +12,7 @@ namespace Bibliotheque
         protected int _y;
         protected bool _player;
 
-        public Yokai(int x, int y, bool player)
+        public Yokai(int x, int y, Joueur player)
         {
             _x = x;
             _y = y;
