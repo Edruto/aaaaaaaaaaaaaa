@@ -8,7 +8,7 @@ namespace Bibliotheque
 {
     class Tanuki : Yokai
     {
-        public Tanuki(int x, int y, bool player):base(x,y,player)
+        public Tanuki(int x, int y, Joueur player):base(x,y,player)
         {
 
         }
