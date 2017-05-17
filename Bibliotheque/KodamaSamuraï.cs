@@ -8,8 +8,14 @@ namespace Bibliotheque
 {
     public class KodamaSamuraï : Kodama
     {
-        public KodamaSamuraï(int x, int y, Joueur player):base(x,y,player)
+        public KodamaSamuraï(int x, int y, Joueur player) : base(x, y, player)
         {
+            IsMovingLeft = true;
+            IsMovingRight = true;
+            IsMovingUp = true;
+            IsMovingDown = true;
+            IsMovingDiagUpRight = true;
+            IsMovingDiagUpLeft = true;
 
         }
     }

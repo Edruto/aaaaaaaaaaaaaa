@@ -8,9 +8,12 @@ namespace Bibliotheque
 {
     class Tanuki : Yokai
     {
-        public Tanuki(int x, int y, Joueur player):base(x,y,player)
+        public Tanuki(int x, int y, Joueur player) : base(x, y, player)
         {
-
+            IsMovingDown = true;
+            IsMovingLeft = true;
+            IsMovingRight = true;
+            IsMovingUp = true;
         }
 
     }
