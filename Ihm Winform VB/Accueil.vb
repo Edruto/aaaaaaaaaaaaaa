@@ -1,7 +1,7 @@
 ﻿Imports Bibliotheque
 
-Public Class Form1
-    Private Sub btnOK_Click(sender As Object, e As EventArgs) Handles btnOK.Click
+Public Class Accueil
+    Private Sub btnOK_Click(sender As Object, e As EventArgs)
         Dim plat As New Plateau()
 
         TextBox1.Text = plat.HorsPlateau(CInt(tbPrenom.Text), CInt(TextBox2.Text))
