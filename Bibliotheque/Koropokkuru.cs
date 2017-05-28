@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Bibliotheque
 {
-    class Koropokkuru : Yokai
+    public class Koropokkuru : Yokai
     {
         public Koropokkuru(int x, int y, Joueur player) : base(x, y, player)
         {

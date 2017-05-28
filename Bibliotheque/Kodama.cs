@@ -12,6 +12,5 @@ namespace Bibliotheque
         {
             IsMovingUp = true;
         }
-
     }
 }

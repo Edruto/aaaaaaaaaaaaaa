@@ -26,17 +26,21 @@ namespace Bibliotheque
             {
                 return _player;
             }
+            set
+            {
+                _player = value;
+            }
         }
 
         public int x
         {
             get { return _x; }
-            set { x = value; }
+            set { _x = value; }
         }
         public int y
         {
             get { return _y; }
-            set { y = value; }
+            set { _y = value; }
         }
 
         public bool IsMovingLeft { get => isMovingLeft; set => isMovingLeft = value; }
